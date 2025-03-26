@@ -6,20 +6,20 @@
         <div class="header-top-wrapper">
             <ul class="contact-list">
                 <li>
-                    <i class="fal fa-map-marker-alt"></i>
-                    6391 Elgin St. Celina, USA
+                    <i class="fal fa-map-marker-alt" style="color: #198754;"></i>
+                    LOCATION
                 </li>
                 <li>
-                    <i class="far fa-envelope"></i>
-                    <a href="mailto:info@example.com" class="link">info@example.com</a>
+                    <i class="far fa-envelope" style="color: #198754;"></i>
+                    <a href="mailto:info@example.com" class="link" style="color: #198754;">info@example.com</a>
                 </li>
             </ul>
             <div class="social-icon d-flex align-items-center">
-                <span>Follow Us On:</span>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <span style="color: #198754;">Follow Us On:</span>
+                <a href="#" style="color: #198754;"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" style="color: #198754;"><i class="fab fa-twitter"></i></a>
+                <a href="#" style="color: #198754;"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" style="color: #198754;"><i class="fa-brands fa-youtube"></i></a>
             </div>
         </div>
     </div>

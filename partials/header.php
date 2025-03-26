@@ -13,16 +13,17 @@
                 <div class="header-right d-flex justify-content-end align-items-center">
                     <div class="mean__menu-wrapper">
                         <div class="main-menu">
-                            <nav id="mobile-menu">
+                            <nav id="mobile-menu" >
                                 <ul>
                                     
                                     <li>
-                                        <a href="">
+                                        <a href="#about" style="color: #198754; text-decoration: none;" onclick="scrollToSection('about')">
                                             About Us</a></li>
-                                        <li><a href=""> Programs</a></li>
-                                            <li> <a href="">Activities</a></li>
-                                           <li><a href="">Testimonial</a></li>
-                                         <li><a href=""> FAQ</a></li>
+                                        <li><a href="#programs" style="color: #198754; text-decoration: none;" onclick="scrollToSection('programs')"> Programs</a></li>
+                                        <li><a href="#toppers" style="color: #198754; text-decoration: none;" onclick="scrollToSection('programs')"> Toppers</a></li>
+                                            <li> <a href="#activities" style="color: #198754; text-decoration: none;" onclick="scrollToSection('activities')">Activities</a></li>
+                                           <li><a href="#testimonial" style="color: #198754; text-decoration: none;" onclick="scrollToSection('testimonial')">Testimonial</a></li>
+                                         <li><a href="#faq" style="color: #198754; text-decoration: none;" onclick="scrollToSection('faq')"> FAQ</a></li>
                                     
                                 </ul>
                             </nav>

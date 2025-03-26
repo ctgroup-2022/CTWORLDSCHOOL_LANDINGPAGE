@@ -20,7 +20,7 @@
                 <div class="content">
                     <p>Call Us 7/24</p>
                     <h3>
-                        <a href="tel:+2085550112">+208-555-0112</a>
+                        <a href="tel:+2085550112">+000000000</a>
                     </h3>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                 <div class="content">
                     <p>Make a Quote</p>
                     <h3>
-                        <a href="mailto:kidsa@gmail.com">kidsa@gmail.com</a>
+                        <a href="mailto:kidsa@gmail.com">ctws@....</a>
                     </h3>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                 <div class="content">
                     <p>Location</p>
                     <h3>
-                        4517 Washington ave.
+                       dftsg
                     </h3>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                     <div class="single-footer-widget">
                         <div class="widget-head">
                             <a href="index.php">
-                                <img src="assets/img/logo/logo.svg" alt="logo-img">
+                                <img src="assets/images/worldLogo.webp" alt="logo-img" style="height: 100px; width: 200px; max-width: 100%; height: auto;">
                             </a>
                         </div>
                         <div class="footer-content">
@@ -88,25 +88,25 @@
                         </div>
                         <ul class="list-area">
                             <li>
-                                <a href="program-details.php">
+                                <a href="">
                                     <i class="fa-solid fa-chevron-right"></i>
                                     Our Services
                                 </a>
                             </li>
                             <li>
-                                <a href="news-details.php">
+                                <a href="">
                                     <i class="fa-solid fa-chevron-right"></i>
                                     Our Blogs
                                 </a>
                             </li>
                             <li>
-                                <a href="faq.php">
+                                <a href="">
                                     <i class="fa-solid fa-chevron-right"></i>
                                     FAQ’S
                                 </a>
                             </li>
                             <li>
-                                <a href="contact.php">
+                                <a href="">
                                     <i class="fa-solid fa-chevron-right"></i>
                                     Contact Us
                                 </a>

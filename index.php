@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <!--<< Header Area >>-->
-    <?php $title='Kidsa - Kindergarten School PHP Template'?>
+    <?php $title='CT WORLD SCHOOL'?>
     <?php include './partials/head.php'?>
     <body>
 
@@ -51,21 +51,16 @@
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-6">
                         <div class="hero-content">
-                            <h5 class="wow fadeInUp" style="color: #198754;">Kindergarten & Baby Care</h5>
-                            <h1 class="wow fadeInUp" data-wow-delay=".3s">
-                                Kids' Promising <br> <span style="color: #198754;">Tomorrow</span> Ahead
+                            <h5 class="wow fadeInUp" style="color: #198754; font-weight: bold;">Kindergarten & Baby Care</h5>
+                            <h1 class="wow fadeInUp" data-wow-delay=".3s" style="font-weight: bold;">
+                                Kids' Promising <br> <span style="color: #198754; font-weight: bold;">Tomorrow</span> Ahead
                             </h1>
-                            <p class="wow fadeInUp" data-wow-delay=".5s">Suspendisse non blandit sapien Nunc eleifend, enim et porta porta <br> eros risus tincidunt diam, vel sodales </p>
+                            <p class="wow fadeInUp" data-wow-delay=".5s" style="font-weight: bold;">Suspendisse non blandit sapien Nunc eleifend, enim et porta porta <br> eros risus tincidunt diam, vel sodales </p>
                             <div class="hero-button">
-                                <a href="contact.php" class="theme-btn wow fadeInUp" data-wow-delay=".7s" style="background-color: #ffc107;">
+                                <a href="contact.php" class="theme-btn wow fadeInUp" data-wow-delay=".7s" style="background-color: #ffc107; font-weight: bold;">
                                     Apply Today <i class="fa-solid fa-arrow-right-long"></i>
                                 </a>
-                                <span class="button-text wow fadeInUp" data-wow-delay=".8s">
-                                    <a href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I" class="video-btn ripple video-popup" style="background-color: #ffc107;">
-                                        <i class="fa-solid fa-play"></i>
-                                    </a>
-                                    <span class="ms-4 d-line">Play Video</span>
-                                </span>
+                               
                             </div>
                         </div>
                     </div>
@@ -81,7 +76,7 @@
         </div>
 
         <!-- About Section Start -->
-        <section class="about-section section-padding">
+        <section id="about" class="about-section section-padding">
             <div class="bus-shape float-bob-x">
                 <img src="assets/img/about/bus.png" alt="shape-img">
             </div>
@@ -166,7 +161,7 @@
             </div>
         </section>
         <!-- Programs Section Start -->
-        <section class="program-section section-padding section-bg-2 fix" style="background-color: #ffc107;">
+        <section id="programs" class="program-section section-padding section-bg-2 fix" style="background-color: #ffc107;">
             <div class="top-shape">
                 <img src="assets/img/section-top-shape.png" alt="shape-img">
             </div>
@@ -247,7 +242,7 @@
         </section>
 
         <!-- Work Process Section Start -->
-        <section class="work-process-section fix section-padding fix">
+        <section  class="work-process-section fix section-padding fix">
             <div class="container">
                 <div class="process-work-wrapper">
                     <div class="row g-4">
@@ -318,7 +313,7 @@
         </section>
 
         <!-- About Activities Section Start -->
-        <section class="about-activities-section section-padding pt-0">
+        <section id="activities" class="about-activities-section section-padding pt-0">
             <div class="pencil-shape">
                 <img src="assets/img/about/pencil.png" alt="shape-img">
             </div>
@@ -401,7 +396,7 @@
         </section>
 
         <!-- Team Section Start -->
-        <section class="team-section fix section-bg section-padding" style="background-color: #ffc107;">
+        <section id="toppers" class="team-section fix section-bg section-padding" style="background-color: #ffc107;">
             <div class="top-shape">
                 <img src="assets/img/section-top-shape.png" alt="shape-img">
             </div>
@@ -486,7 +481,7 @@
         </section>
 
         <!-- Testimonial Section Start -->
-        <section class="testimonial-section fix section-padding">
+        <section id="testimonial" class="testimonial-section fix section-padding">
             <div class="tree-shape float-bob-y">
                 <img src="assets/img/tree-shape.png" alt="shape-img">
             </div>
@@ -537,45 +532,10 @@
             </div>
         </section>
 
-        <!-- Cta Section Start -->
-        <section class="cta-section fix section-padding bg-cover" style="background-image: url('assets/images/PNG (1).png');">
-            <div class="plane-shape">
-                <img src="assets/img/cta/plane.png" alt="img">
-            </div>
-            <div class="pencil-shape">
-                <img src="assets/img/cta/pencil.png" alt="img">
-            </div>
-            <div class="container">
-                <div class="cta-wrapper">
-                    <div class="row justify-content-between">
-                        <div class="col-lg-6">
-                            <div class="section-title">
-                                <span class="text-white wow fadeInUp">Get your quality</span>
-                                <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">
-                                    Come and be Part of <br> Our Latest Session
-                                </h2>
-                            </div>
-                            <div class="cta-button mt-4 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                <a href="contact.php" class="theme-btn bg-white">
-                                    Apply Now <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
-                            <div class="cta-image">
-                                <img src="assets/images/ss2 (2).png" alt="cta-img">
-                                <div class="cta-shape">
-                                    <img src="assets/img/cta/cta-shape.png" alt="img">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    
 
      <!--<< Faq Section Start >>-->
-     <section class="faq-section fix section-padding">
+     <section id="faq" class="faq-section fix section-padding" style="background-color: #ffc107;">
             <div class="container">
                 <div class="faq-wrapper">
                     <div class="row g-4">
