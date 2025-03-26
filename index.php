@@ -49,22 +49,20 @@
             </div>
             <div class="container">
                 <div class="row g-4 align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mb-30">
                         <div class="hero-content">
-                            <h5 class="wow fadeInUp" style="color: #198754; font-weight: bold;">Kindergarten & Baby Care</h5>
-                            <h1 class="wow fadeInUp" data-wow-delay=".3s" style="font-weight: bold;">
+                            <h5 class="wow fadeInUp" style="color: #198754; font-weight: bold; font-size:50px;">CT WORLD SCHOOL</h5>
+                            <h1 class="wow fadeInUp" data-wow-delay=".3s" style="font-weight: bold; font-size:40px;">
                                 Kids' Promising <br> <span style="color: #198754; font-weight: bold;">Tomorrow</span> Ahead
                             </h1>
                             <p class="wow fadeInUp" data-wow-delay=".5s" style="font-weight: bold;">Suspendisse non blandit sapien Nunc eleifend, enim et porta porta <br> eros risus tincidunt diam, vel sodales </p>
                             <div class="hero-button">
-                                <a href="contact.php" class="theme-btn wow fadeInUp" data-wow-delay=".7s" style="background-color: #ffc107; font-weight: bold;">
-                                    Apply Today <i class="fa-solid fa-arrow-right-long"></i>
-                                </a>
+                               
                                
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mb-30">
                    <?php include('form.php'); ?>
                     </div>
                 </div>
