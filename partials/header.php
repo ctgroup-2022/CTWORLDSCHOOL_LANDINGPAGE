@@ -30,7 +30,7 @@
                         </div>
                     </div>
                     <div class="header-button">
-                        <a href="contact.php" class="theme-btn" style="background-color: rgb(255, 193, 7);">
+                        <a href="" class="theme-btn" style="background-color: rgb(255, 193, 7);">
                             <span>
                                APPLY NOW
                                 <i class="fa-solid fa-arrow-right-long"></i>
