@@ -121,25 +121,25 @@
                         </div>
                         <ul class="list-area">
                             <li>
-                                <a href="program-details.php">
+                                <a href="">
                                     <i class="fa-solid fa-chevron-right"></i>
                                     Music Learning
                                 </a>
                             </li>
                             <li>
-                                <a href="program-details.php">
+                                <a href="">
                                     <i class="fa-solid fa-chevron-right"></i>
                                     Sports, Games
                                 </a>
                             </li>
                             <li>
-                                <a href="program-details.php">
+                                <a href="">
                                     <i class="fa-solid fa-chevron-right"></i>
                                     Science Class
                                 </a>
                             </li>
                             <li>
-                                <a href="program-details.php">
+                                <a href="">
                                     <i class="fa-solid fa-chevron-right"></i>
                                     Drawing
                                 </a>
@@ -204,7 +204,7 @@
         <div class="container">
             <div class="footer-wrapper d-flex align-items-center justify-content-between">
                 <p class="wow fadeInLeft color-2" data-wow-delay=".3s">
-                    © All Copyright 2024 by <a href="index.php">Kidsa</a>
+                    © All Copyright <a href="index.php"></a>
                 </p>
                 <ul class="footer-menu wow fadeInRight" data-wow-delay=".5s">
                     <li>

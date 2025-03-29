@@ -7,11 +7,11 @@
             <ul class="contact-list">
                 <li>
                     <i class="fal fa-map-marker-alt" style="color: #198754;"></i>
-                    LOCATION
+                    66 Feet Rd, near CT Group Of Institutions, Mithapur, Jalandhar
                 </li>
                 <li>
                     <i class="far fa-envelope" style="color: #198754;"></i>
-                    <a href="mailto:info@example.com" class="link" style="color: #198754;">info@example.com</a>
+                    <a href="mailto:info@example.com" class="link" style="color: #198754;">ctworldschool@ctgroup.in</a>
                 </li>
             </ul>
             <div class="social-icon d-flex align-items-center">
