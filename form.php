@@ -9,6 +9,7 @@
     <style>
         body {
             background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            margin-bottom:200px;
         }
         .card {
             border-radius: 12px;
@@ -88,16 +89,18 @@
                     <label class="form-label" style="color:#198754;">Class</label>
                     <div class="input-group">
                         <span class="input-group-text" style="background-color:#ffc107;"><i class="fa fa-book"></i></span>
-                        <select name="class" class="form-select" required>
-                            <option value="">Select Class</option>
-                            <option style="background:#ffc107; color:white;">Class 6</option>
-                            <option>Class 7</option>
-                            <option>Class 8</option>
-                            <option>Class 9</option>
-                            <option>Class 10</option>
-                            <option>Class 11</option>
-                            <option>Class 12</option>
-                        </select>
+                        <select class="form-select">
+  <option selected>Class</option>
+  <option value="1">one</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
                     </div>
                 </div>
 
