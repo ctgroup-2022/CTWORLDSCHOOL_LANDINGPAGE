@@ -20,9 +20,8 @@
 
         <!-- Search Area Start -->
        
-       
         <!-- Hero Section Start -->
-        <section class="hero-section hero-1 fix" style="background-color:#fff4d5; ">
+        <section class="hero-section hero-1 fix" style="height: 700px;">
             <div class="bottom-shape" >
                 <img src="assets/images/b2.png" alt="shape-img">
             </div>
@@ -47,9 +46,9 @@
             <div class="star-shape">
                 <img src="assets/img/hero/star.png" alt="shape-img">
             </div>
-            <div class="container">
+            <div class="container" >
                 <div class="row g-4 align-items-center">
-                    <div class="col-lg-6" style="margin-bottom:200px;">
+                    <div class="col-lg-6">
                         <div class="hero-content">
                             <h5 class="wow fadeInUp" style="color: #198754; font-weight: bold; font-size:50px;">CT WORLD SCHOOL</h5>
                             <h1 class="wow fadeInUp" data-wow-delay=".3s" style="font-weight: bold; font-size:40px;">
@@ -62,14 +61,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6" style="margin-bottom:300px;">
-                   <?php include('form.php'); ?>
+                    <div class="col-lg-6" >
+                   <div >
+                       <?php include('form.php'); ?>
+                   </div>
                     </div>
                 </div>
             </div>
         </section>
 
-       
 
         <!-- About Section Start -->
         <section id="about" class="about-section section-padding"  style="background-color:#198754;" >
@@ -157,7 +157,7 @@
             </div>
         </section>
         <!-- Programs Section Start -->
-        <section id="programs" class="program-section section-padding section-bg-2 fix" style="background-color: #ffc107;">
+        <section id="programs" class="program-section section-padding section-bg-2 fix" style="background-color: #ffc107;" >
             <div class="top-shape">
                 <img src="assets/images/b1.png" alt="shape-img">
             </div>
@@ -177,13 +177,13 @@
                 <img src="assets/img/program/compass.png" alt="shape-img">
             </div>
             <div class="container">
-                <div class="section-title text-center mt-60">
+                <div class="section-title text-center ">
                     <span class="wow fadeInUp" style="color: #198754; font-weight: bolder; font-size: 40px;">Our Programs</span>
                     <h2 class="wow fadeInUp" data-wow-delay=".3s">Where Curiosity Meets Opportunity</h2>
                 </div>
                 <div class="row">
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="program-box-items">
+                        <div class="program-box-items mb-4 mb-md-5 mb-lg-6 mb-xl-7">
                             <div class="program-bg" style="background-color: #198754;"></div>
                             <div class="program-image">
                                 <img src="assets/images/Untitled design/1.png" alt="img">
@@ -200,7 +200,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="program-box-items">
+                        <div class="program-box-items mb-4 mb-md-5 mb-lg-6 mb-xl-7">
                             <div class="program-bg bg-2" style="background-color: #198754;"></div>
                             <div class="program-image">
                                 <img src="assets/images/skill.png" alt="img">
@@ -217,7 +217,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="program-box-items">
+                        <div class="program-box-items mb-4 mb-md-5 mb-lg-6 mb-xl-7">
                             <div class="program-bg bg-3" style="background-color: #198754;"></div>
                             <div class="program-image">
                                 <img src="assets/images/ckt.png" alt="img">
@@ -404,7 +404,7 @@
             </div>
             <div class="container">
                 <div class="section-title-area">
-                    <div class="section-title mt-60">
+                    <div class="section-title ">
                         <span class="wow fadeInUp"></span>
                         <h2 class="wow fadeInUp" data-wow-delay=".3s" style="color:#198754;">Academic stars</h2>
                     </div>

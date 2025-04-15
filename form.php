@@ -48,7 +48,7 @@
     </style>
 </head>
 <body class="bg-light">
-    <div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="container d-flex justify-content-center align-items-center vh-0">
         <div class="card p-4 shadow-lg w-100" style="max-width: 450px;">
             <h2 class="text-center fw-bolder" style="color: #198754;">Apply  Now</h2>
             <p class="text-center text-muted">Start your journey with us</p>
@@ -88,7 +88,7 @@
                 <div class="mb-3">
                     <label class="form-label" style="color:#198754;">Class</label>
                     <div class="input-group">
-                        <span class="input-group-text" style="background-color:#ffc107;"><i class="fa fa-book"></i></span>
+                       
                         <select class="form-select">
   <option selected>Class</option>
   <option value="1">one</option>
