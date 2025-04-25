@@ -76,7 +76,7 @@
                  <div class="mb-3">
                     <label class="form-label"style="color:#198754;">Age</label>
                     <div class="input-group">
-                        <span class="input-group-text" style="background-color:#ffc107;"><i class="fa fa-phone"></i></span>
+                        <span class="input-group-text" style="background-color:#ffc107;"><i class="fa fa-user" ></i></span>
                         <input type="tel" name="phone" class="form-control" placeholder="Enter your Age" required>
                     </div>
                 </div
