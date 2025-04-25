@@ -58,7 +58,7 @@
                 <div class="mb-3">
                     <label class="form-label"style="color:#198754;">Full Name</label>
                     <div class="input-group">
-                        <span class="input-group-text" style="background-color:#ffc107;"><i class="fa fa-user" "></i></span>
+                        <span class="input-group-text" style="background-color:#ffc107;"><i class="fa fa-user" ></i></span>
                         <input type="text" name="name" class="form-control" placeholder="Enter your name" required>
                     </div>
                 </div>
@@ -71,33 +71,52 @@
                         <input type="tel" name="phone" class="form-control" placeholder="Enter your phone number" required>
                     </div>
                 </div>
-
-                <!-- Email Address -->
+    
+   <!-- Email Address -->
                 <div class="mb-3">
-                    <label class="form-label"style="color:#198754;">Email Address</label>
+                    <label class="form-label"style="color:#198754;">Age</label>
                     <div class="input-group">
-                        <span class="input-group-text" style="background-color:#ffc107;"><i class="fa fa-envelope"></i></span>
-                        <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+                        <span class="input-group-text" style="background-color:#ffc107;"><i class="fa fa-user" ></i></span>
+                        <input type="email" name="email" class="form-control" placeholder="Enter your Age" required>
                     </div>
                 </div>
 
                 <!-- State Selection -->
-                
+                <label class="form-label"style="color:#198754;">Gender</label><br>
 
+                <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+  <label class="form-check-label" for="radioDefault1">
+   Male
+  </label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+  <label class="form-check-label" for="radioDefault2">
+FEMALE
+  </label>
+    </div><br>   
+    
                 <!-- Class Selection -->
-                <div class="mb-3">
-                    <label class="form-label" style="color:#198754;">School</label>
-                    <div class="input-group">
-                       
-                        <select class="form-select" style="background-color:#ffc107;color:#198754;">
-  
-  <option value="1">School</option>
-  <option value="2">Club</option>
-  <option value="3">Individual</option>
-  
-</select>
-                    </div>
-                </div>
+<label class="form-label"style="color:#198754;">School</label><br>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+  <label class="form-check-label" for="radioDefault1">
+    School
+  </label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+  <label class="form-check-label" for="radioDefault2">
+    Club
+  </label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault3">
+  <label class="form-check-label" for="radioDefault3">
+    Individual
+  </label>
+</div>
 
                 <!-- Submit Button -->
                 <button type="submit" class="btn w-100" style="background-color:#ffc107;color:#198754;  ">
