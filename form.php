@@ -51,7 +51,7 @@
     <div class="container d-flex justify-content-center align-items-center vh-0">
         <div class="card p-4 shadow-lg w-100" style="max-width: 450px;">
             <h2 class="text-center fw-bolder" style="color: #198754;">Apply  Now</h2>
-            <p class="text-center text-muted">Start your journey with us</p>
+            <p class="text-center text-muted">CT Shooting Championship</p>
             <form action="" method="POST">
                 
                 <!-- Full Name -->
@@ -126,31 +126,3 @@ FEMALE
     </div>
 </body>
 </html>
-<?php
-
-if (isset($_POST['submit'])) {
-    // Retrieve form data
-    $name = $_REQUEST['name'];
-    $phone_number = $_REQUEST['phone'];
-    $age = $_REQUEST['age'];
-    $gender = $_REQUEST['gender'];
-    $participants = $_REQUEST['participants'];
-
-    // Include database configuration
-    include "config.php";
-
-    // Corrected SQL query
-    $query = "INSERT INTO `CTW_LANDINGPAGE` (`name`, `phone_number`, `age`, `gender`, `participants`) 
-              VALUES ('$name', '$phone_number', '$age', '$gender', '$participants')";
-
-    // Execute the query
-    $result = mysqli_query($con, $query);
-
-    // Check the result
-    if ($result) {
-        echo "<script>alert('Data added successfully')</script>";
-    } else {
-        echo "Error: " . mysqli_error($con);
-    }
-}
-?>

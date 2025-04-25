@@ -55,11 +55,11 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="hero-content">
-                            <h5 class="wow fadeInUp" style="color: #198754; font-weight: bold; font-size:50px;">CT WORLD SCHOOL</h5>
+                            <h5 class="wow fadeInUp" style="color: #198754; font-weight: bold; font-size:50px;">CT SHOOTING CHAMPIOSHIP</h5>
                             <h1 class="wow fadeInUp" data-wow-delay=".3s" style="font-weight: bold; font-size:40px;">
                                 Kids' Promising <br> <span style="color: #198754; font-weight: bold;">Tomorrow</span> Ahead
                             </h1>
-                            <p class="wow fadeInUp" data-wow-delay=".5s" style="font-weight: bold;">Suspendisse non blandit sapien Nunc eleifend, enim et porta porta <br> eros risus tincidunt diam, vel sodales </p>
+                            <p class="wow fadeInUp" data-wow-delay=".5s" style="font-weight: bold;">This event is not just about winning—it’s about discipline, determination, and dedication.  Join us and be a part of a growing community of young, passionate shooters aiming for excellence.</p>
                             <div class="hero-button">
                                
                                
