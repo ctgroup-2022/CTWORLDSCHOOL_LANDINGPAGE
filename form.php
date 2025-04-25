@@ -52,7 +52,7 @@
         <div class="card p-4 shadow-lg w-100" style="max-width: 450px;">
             <h2 class="text-center fw-bolder" style="color: #198754;">Apply  Now</h2>
             <p class="text-center text-muted">Start your journey with us</p>
-            <form action="process.php" method="POST">
+            <form action="" method="POST">
                 
                 <!-- Full Name -->
                 <div class="mb-3">
@@ -97,7 +97,7 @@ FEMALE
     </div><br>   
     
                 <!-- Class Selection -->
-<label class="form-label"style="color:#198754;">School</label><br>
+<label class="form-label"style="color:#198754;">participants</label><br>
 <div class="form-check form-check-inline">
   <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
   <label class="form-check-label" for="radioDefault1">
@@ -126,3 +126,31 @@ FEMALE
     </div>
 </body>
 </html>
+<?php
+
+if (isset($_POST['submit'])) {
+    // Retrieve form data
+    $name = $_REQUEST['name'];
+    $phone_number = $_REQUEST['phone'];
+    $age = $_REQUEST['age'];
+    $gender = $_REQUEST['gender'];
+    $participants = $_REQUEST['participants'];
+
+    // Include database configuration
+    include "config.php";
+
+    // Corrected SQL query
+    $query = "INSERT INTO `CTW_LANDINGPAGE` (`name`, `phone_number`, `age`, `gender`, `participants`) 
+              VALUES ('$name', '$phone_number', '$age', '$gender', '$participants')";
+
+    // Execute the query
+    $result = mysqli_query($con, $query);
+
+    // Check the result
+    if ($result) {
+        echo "<script>alert('Data added successfully')</script>";
+    } else {
+        echo "Error: " . mysqli_error($con);
+    }
+}
+?>
