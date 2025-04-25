@@ -86,20 +86,15 @@
 
                 <!-- Class Selection -->
                 <div class="mb-3">
-                    <label class="form-label" style="color:#198754;">Class</label>
+                    <label class="form-label" style="color:#198754;">School</label>
                     <div class="input-group">
                        
-                        <select class="form-select">
-  <option selected>Class</option>
-  <option value="1">one</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
-  <option value="1">One</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
-  <option value="1">One</option>
-  <option value="2">Two</option>
-  <option value="3">Three</option>
+                        <select class="form-select" style="background-color:#ffc107;color:#198754;">
+  
+  <option value="1">School</option>
+  <option value="2">Club</option>
+  <option value="3">Individual</option>
+  
 </select>
                     </div>
                 </div>
