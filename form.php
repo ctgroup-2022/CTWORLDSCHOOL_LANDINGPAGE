@@ -1,3 +1,19 @@
+<?php
+$successMsg = "";
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = htmlspecialchars($_POST["name"]);
+    $phone = htmlspecialchars($_POST["phone"]);
+    $age = htmlspecialchars($_POST["age"]);
+    $gender = htmlspecialchars($_POST["gender"]);
+    $participants = htmlspecialchars($_POST["participants"]);
+
+    // You can save this data to a database or send an email here
+    // For now, we just show a success message
+
+    $successMsg = "Thank you, $name! Your application for the CT Shooting Championship has been received.";
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +25,7 @@
     <style>
         body {
             background: linear-gradient(to right, #f8f9fa, #e9ecef);
-            margin-bottom:200px;
+            margin-bottom: 200px;
         }
         .card {
             border-radius: 12px;
@@ -50,75 +66,73 @@
 <body class="bg-light">
     <div class="container d-flex justify-content-center align-items-center vh-0">
         <div class="card p-4 shadow-lg w-100" style="max-width: 450px;">
-            <h2 class="text-center fw-bolder" style="color: #198754;">Apply  Now</h2>
-            <p class="text-center text-muted">CT Shooting Championship</p>
+            <h2 class="text-center fw-bolder" style="color: #198754;">Apply Now</h2>
+            <p class="text-center fw-bolder" style="color:rgb(235, 216, 49);">CT Shooting Championship</p>
+
+            <?php if ($successMsg): ?>
+                <div class="alert alert-success text-center fw-bold">
+                    <?= $successMsg ?>
+                </div>
+            <?php endif; ?>
+
             <form action="" method="POST">
-                
-                <!-- Full Name -->
                 <div class="mb-3">
-                    <label class="form-label"style="color:#198754;">Full Name</label>
+                    <label class="form-label" style="color:#198754;">Full Name</label>
                     <div class="input-group">
-                        <span class="input-group-text" style="background-color:#ffc107;"><i class="fa fa-user" ></i></span>
+                        <span class="input-group-text" style="background-color:#ffc107;"><i class="fa fa-user"></i></span>
                         <input type="text" name="name" class="form-control" placeholder="Enter your name" required>
                     </div>
                 </div>
 
-                <!-- Phone Number -->
                 <div class="mb-3">
-                    <label class="form-label"style="color:#198754;">Phone Number</label>
+                    <label class="form-label" style="color:#198754;">Phone Number</label>
                     <div class="input-group">
                         <span class="input-group-text" style="background-color:#ffc107;"><i class="fa fa-phone"></i></span>
                         <input type="tel" name="phone" class="form-control" placeholder="Enter your phone number" required>
                     </div>
                 </div>
-    
-   <!-- Email Address -->
-   <div class="mb-3">
-    <label class="form-label" style="color:#198754;">Age</label>
-    <div class="input-group">
-        <span class="input-group-text" style="background-color:#ffc107;">
-            <i class="fa fa-user"></i>
-        </span>
-        <input type="tel" name="age" class="form-control" placeholder="Enter your Age" required>
-    </div>
-</div>
 
-<!-- Gender Selection -->
-<div class="mb-3">
-    <label class="form-label" style="color:#198754;">Gender</label>
-    <div class="d-flex flex-wrap">
-        <div class="form-check me-3">
-            <input class="form-check-input" type="radio" name="gender" id="genderMale" value="Male">
-            <label class="form-check-label" for="genderMale">Male</label>
-        </div>
-        <div class="form-check me-3">
-            <input class="form-check-input" type="radio" name="gender" id="genderFemale" value="Female" checked>
-            <label class="form-check-label" for="genderFemale">Female</label>
-        </div>
-    </div>
-</div>
+                <div class="mb-3">
+                    <label class="form-label" style="color:#198754;">Age</label>
+                    <div class="input-group">
+                        <span class="input-group-text" style="background-color:#ffc107;"><i class="fa fa-user"></i></span>
+                        <input type="tel" name="age" class="form-control" placeholder="Enter your Age" required>
+                    </div>
+                </div>
 
-<!-- Participants Selection -->
-<div class="mb-3">
-    <label class="form-label" style="color:#198754;">Participants</label>
-    <div class="d-flex flex-wrap">
-        <div class="form-check me-3">
-            <input class="form-check-input" type="radio" name="participants" id="participantSchool" value="School">
-            <label class="form-check-label" for="participantSchool">School</label>
-        </div>
-        <div class="form-check me-3">
-            <input class="form-check-input" type="radio" name="participants" id="participantClub" value="Club" checked>
-            <label class="form-check-label" for="participantClub">Club</label>
-        </div>
-        <div class="form-check me-3">
-            <input class="form-check-input" type="radio" name="participants" id="participantIndividual" value="Individual">
-            <label class="form-check-label" for="participantIndividual">Individual</label>
-        </div>
-    </div>
-</div>
+                <div class="mb-3">
+                    <label class="form-label" style="color:#198754;">Gender</label>
+                    <div class="d-flex flex-wrap">
+                        <div class="form-check me-3">
+                            <input class="form-check-input" type="radio" name="gender" id="genderMale" value="Male">
+                            <label class="form-check-label" for="genderMale">Male</label>
+                        </div>
+                        <div class="form-check me-3">
+                            <input class="form-check-input" type="radio" name="gender" id="genderFemale" value="Female" checked>
+                            <label class="form-check-label" for="genderFemale">Female</label>
+                        </div>
+                    </div>
+                </div>
 
-                <!-- Submit Button -->
-                <button type="submit" class="btn w-100" style="background-color:#ffc107;color:#198754;  ">
+                <div class="mb-3">
+                    <label class="form-label" style="color:#198754;">Participants</label>
+                    <div class="d-flex flex-wrap">
+                        <div class="form-check me-3">
+                            <input class="form-check-input" type="radio" name="participants" id="participantSchool" value="School">
+                            <label class="form-check-label" for="participantSchool">School</label>
+                        </div>
+                        <div class="form-check me-3">
+                            <input class="form-check-input" type="radio" name="participants" id="participantClub" value="Club" checked>
+                            <label class="form-check-label" for="participantClub">Club</label>
+                        </div>
+                        <div class="form-check me-3">
+                            <input class="form-check-input" type="radio" name="participants" id="participantIndividual" value="Individual">
+                            <label class="form-check-label" for="participantIndividual">Individual</label>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn w-100" style="background-color:#ffc107;color:#198754;">
                     <i class="fa fa-paper-plane" style="color:#198754;"></i> Submit
                 </button>
             </form>
@@ -126,3 +140,34 @@
     </div>
 </body>
 </html>
+<?php
+$successMsg = "";
+$mysqli = new mysqli("DB_HOST", "DB_USER", "DB_PASS", "DB_NAME");
+
+// Check connection
+if ($mysqli->connect_error) {
+    die("Connection failed: " . $mysqli->connect_error);
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = htmlspecialchars($_POST["name"]);
+    $phone = htmlspecialchars($_POST["phone"]);
+    $age = htmlspecialchars($_POST["age"]);
+    $gender = htmlspecialchars($_POST["gender"]);
+    $participants = htmlspecialchars($_POST["participants"]);
+
+    // Insert into DB
+    $stmt = $mysqli->prepare("INSERT INTO WS_LANDINGPAGE (name, phone, age, gender, participants) VALUES (?, ?, ?, ?, ?)");
+    $stmt->bind_param("ssiss", $name, $phone, $age, $gender, $participants);
+
+    if ($stmt->execute()) {
+        $successMsg = "Thank you, $name! Your application for the CT Shooting Championship has been received.";
+    } else {
+        $successMsg = "Error: Something went wrong while submitting.";
+    }
+
+    $stmt->close();
+}
+?>
+
+
