@@ -1,126 +1,149 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquire Now</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <style>
-        body {
-            background: linear-gradient(to right, #f8f9fa, #e9ecef);
-            margin-bottom: 200px;
-        }
-        .card {
-            border-radius: 12px;
-            background: linear-gradient(135deg, #ffffff, #f3f3f3);
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease-in-out;
-        }
-        .card:hover {
-            transform: scale(1.02);
-        }
-        .form-label {
-            font-weight: 600;
-        }
-        .input-group-text {
-            background: #007bff;
-            color: white;
-            border: none;
-        }
-        .form-control {
-            border: 2px solid #dee2e6;
-            transition: all 0.3s ease;
-        }
-        .form-control:focus {
-            border-color: #007bff;
-            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
-        }
-        .btn-primary {
-            background-color: #007bff;
-            border: none;
-            font-weight: 600;
-            transition: background 0.3s ease;
-        }
-        .btn-primary:hover {
-            background-color: #0056b3;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquire Now</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    body {
+      background: linear-gradient(to right, #f8f9fa, #e9ecef);
+      margin-bottom: 200px;
+    }
+    .card {
+      border-radius: 12px;
+      background: linear-gradient(135deg, #ffffff, #f3f3f3);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .form-label {
+      font-weight: 600;
+    }
+    .input-group-text {
+      background: #007bff;
+      color: white;
+      border: none;
+    }
+    .form-control {
+      border: 2px solid #dee2e6;
+      transition: all 0.3s ease;
+    }
+    .form-control:focus {
+      border-color: #007bff;
+      box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+    .btn-primary {
+      background-color: #007bff;
+      border: none;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+    .btn-primary:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body class="bg-light">
-    <div class="container d-flex justify-content-center align-items-center vh-0">
-        <div class="card p-4 shadow-lg w-100" style="max-width: 450px;">
-            <h2 class="text-center fw-bolder" style="color: #198754;">Apply Now</h2>
-            <p class="text-center fw-bolder" style="color:rgb(235, 216, 49);">CT Shooting Championship</p>
+  <div class="container d-flex justify-content-center align-items-center vh-0">
+    <div class="card p-4 shadow-lg w-100" style="max-width: 450px;">
+      <h2 class="text-center fw-bolder" style="color: #198754;">Apply Now</h2>
+      <p class="text-center fw-bolder" style="color:rgb(235, 216, 49);">CT Shooting Championship</p>
 
-            
-
-            <form action="" method="POST">
-                <div class="mb-3">
-                    <label class="form-label" style="color:#198754;">Full Name</label>
-                    <div class="input-group">
-                        <span class="input-group-text" style="background-color:#ffc107;"><i class="fa fa-user"></i></span>
-                        <input type="text" name="name" class="form-control" placeholder="Enter your name" required>
-                    </div>
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label" style="color:#198754;">Phone Number</label>
-                    <div class="input-group">
-                        <span class="input-group-text" style="background-color:#ffc107;"><i class="fa fa-phone"></i></span>
-                        <input type="tel" name="phone" class="form-control" placeholder="Enter your phone number" required>
-                    </div>
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label" style="color:#198754;">Age</label>
-                    <div class="input-group">
-                        <span class="input-group-text" style="background-color:#ffc107;"><i class="fa fa-user"></i></span>
-                        <input type="tel" name="age" class="form-control" placeholder="Enter your Age" required>
-                    </div>
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label" style="color:#198754;">Gender</label>
-                    <div class="d-flex flex-wrap">
-                        <div class="form-check me-3">
-                            <input class="form-check-input" type="radio" name="gender" id="genderMale" value="Male">
-                            <label class="form-check-label" for="genderMale">Male</label>
-                        </div>
-                        <div class="form-check me-3">
-                            <input class="form-check-input" type="radio" name="gender" id="genderFemale" value="Female" checked>
-                            <label class="form-check-label" for="genderFemale">Female</label>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mb-3">
-                    <label class="form-label" style="color:#198754;">Participants</label>
-                    <div class="d-flex flex-wrap">
-                        <div class="form-check me-3">
-                            <input class="form-check-input" type="radio" name="participants" id="participantSchool" value="School">
-                            <label class="form-check-label" for="participantSchool">School</label>
-                        </div>
-                        <div class="form-check me-3">
-                            <input class="form-check-input" type="radio" name="participants" id="participantClub" value="Club" checked>
-                            <label class="form-check-label" for="participantClub">Club</label>
-                        </div>
-                        <div class="form-check me-3">
-                            <input class="form-check-input" type="radio" name="participants" id="participantIndividual" value="Individual">
-                            <label class="form-check-label" for="participantIndividual">Individual</label>
-                        </div>
-                    </div>
-                </div>
-
-                <button type="submit" class="btn w-100" style="background-color:#ffc107;color:#198754;">
-                    <i class="fa fa-paper-plane" style="color:#198754;"></i> Submit
-                </button>
-            </form>
+      <form action="" method="POST">
+        <div class="mb-3">
+          <label class="form-label" style="color:#198754;">Full Name</label>
+          <div class="input-group">
+            <span class="input-group-text" style="background-color:#ffc107;"><i class="fa fa-user"></i></span>
+            <input type="text" name="name" class="form-control" placeholder="Enter your name" required>
+          </div>
         </div>
+
+        <div class="mb-3">
+          <label class="form-label" style="color:#198754;">Phone Number</label>
+          <div class="input-group">
+            <span class="input-group-text" style="background-color:#ffc107;"><i class="fa fa-phone"></i></span>
+            <input type="tel" name="phone" class="form-control" placeholder="Enter your phone number" required>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label" style="color:#198754;">Age</label>
+          <div class="input-group">
+            <span class="input-group-text" style="background-color:#ffc107;"><i class="fa fa-user"></i></span>
+            <input type="tel" name="age" class="form-control" placeholder="Enter your Age" required>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label" style="color:#198754;">Gender</label>
+          <div class="d-flex flex-wrap">
+            <div class="form-check me-3">
+              <input class="form-check-input" type="radio" name="gender" id="genderMale" value="1">
+              <label class="form-check-label" for="genderMale">Male</label>
+            </div>
+            <div class="form-check me-3">
+              <input class="form-check-input" type="radio" name="gender" id="genderFemale" value="2" checked>
+              <label class="form-check-label" for="genderFemale">Female</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label" style="color:#198754;">Participants</label>
+          <div class="d-flex flex-wrap">
+            <div class="form-check me-3">
+              <input class="form-check-input" type="radio" name="participants" id="participantSchool" value="1">
+              <label class="form-check-label" for="participantSchool">School</label>
+            </div>
+            <div class="form-check me-3">
+              <input class="form-check-input" type="radio" name="participants" id="participantClub" value="2" checked>
+              <label class="form-check-label" for="participantClub">Club</label>
+            </div>
+            <div class="form-check me-3">
+              <input class="form-check-input" type="radio" name="participants" id="participantIndividual" value="3">
+              <label class="form-check-label" for="participantIndividual">Individual</label>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" name="submit" class="btn w-100" style="background-color:#ffc107;color:#198754;">
+          <i class="fa fa-paper-plane" style="color:#198754;"></i> Submit
+        </button>
+      </form>
+
+      <?php
+      if (isset($_POST['submit'])) {
+        $conn = mysqli_connect("localhost", "root", "", "ws_landingpage");
+
+        if (!$conn) {
+          die("<div class='alert alert-danger mt-3'>Database connection failed: " . mysqli_connect_error() . "</div>");
+        }
+
+        $name = $_POST['name'];
+        $phone = $_POST['phone'];
+        $age = $_POST['age'];
+        $gender = $_POST['gender'];
+        $participants = $_POST['participants'];
+
+        $query = "INSERT INTO ws_landingpage (name, phone_number, age, gender, participants, status, created_at) 
+                  VALUES ('$name', '$phone', '$age', '$gender', '$participants', 'Pending', NOW())";
+
+        $result = mysqli_query($conn, $query);
+
+        if ($result) {
+          echo "<script>alert('Data added successfully!');</script>";
+        } else {
+          echo "<div class='alert alert-danger mt-3'>Error: " . mysqli_error($conn) . "</div>";
+        }
+
+        mysqli_close($conn);
+      }
+      ?>
     </div>
+  </div>
 </body>
 </html>
-
-
