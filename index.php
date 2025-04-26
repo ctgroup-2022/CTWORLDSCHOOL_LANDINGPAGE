@@ -264,7 +264,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </div>4
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                             <div class="work-process-items text-center style-2">
                                 <div class="line-shape-2">

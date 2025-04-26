@@ -128,7 +128,7 @@
         $age = $_POST['age'];
         $gender = $_POST['gender'];
         $participants = $_POST['participants'];
-
+            include 'config/controller.php';
         $query = "INSERT INTO ws_landingpage (name, phone_number, age, gender, participants, status, created_at) 
                   VALUES ('$name', '$phone', '$age', '$gender', '$participants', 'Pending', NOW())";
 
