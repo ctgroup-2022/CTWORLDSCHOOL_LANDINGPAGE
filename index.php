@@ -46,29 +46,35 @@
             <div class="star-shape">
                 <img src="assets/img/hero/star.png" alt="shape-img">
             </div>
-            <div class="container" >
-                <div class="row g-4 align-items-center">
-                <div class="col-lg-6 mb-5" >
-                   <div >
-                       <?php include('form.php'); ?>
-                   </div>
-                    </div>
-                    <div class="col-lg-6 mb-5">
-                        <div class="hero-content">
-                            <h5 class="wow fadeInUp" style="color: #198754; font-weight: bold; font-size:50px;">CT SHOOTING CHAMPIONSHIP</h5>
-                            <h1 class="wow fadeInUp" data-wow-delay=".3s" style="font-weight: bold; font-size:40px;">
-                                Kids' Promising <br> <span style="color: #198754; font-weight: bold;">Tomorrow</span> Ahead
-                            </h1>
-                            <p class="wow fadeInUp" data-wow-delay=".5s" style="font-weight: bold;">This event is not just about winning—it’s about discipline, determination, and dedication.  Join us and be a part of a growing community of young, passionate shooters aiming for excellence.</p>
-                            <div class="hero-button">
-                               
-                               
-                            </div>
-                        </div>
-                    </div>
-                   
+            <div class="container">
+    <div class="row g-4 align-items-center">
+        <!-- Form Section -->
+        <div class="col-lg-6 col-md-12 mb-5">
+            <div>
+                <?php include('form.php'); ?>
+            </div>
+        </div>
+        <!-- Hero Content Section -->
+        <div class="col-lg-6 col-md-12 mb-5">
+            <div class="hero-content text-center text-lg-start">
+                <h5 class="wow fadeInUp" style="color: #198754; font-weight: bold; font-size:30px;">
+                    CT SHOOTING CHAMPIONSHIP
+                </h5>
+                <h1 class="wow fadeInUp" data-wow-delay=".3s" style="font-weight: bold; font-size:28px;">
+                    Kids' Promising <br> 
+                    <span style="color: #198754; font-weight: bold;">Tomorrow</span> Ahead
+                </h1>
+                <p class="wow fadeInUp" data-wow-delay=".5s" style="font-weight: bold; font-size:16px;">
+                    This event is not just about winning—it’s about discipline, determination, and dedication. 
+                    Join us and be a part of a growing community of young, passionate shooters aiming for excellence.
+                </p>
+                <div class="hero-button mt-3">
+                    <!-- Add buttons or links here if needed -->
                 </div>
             </div>
+        </div>
+    </div>
+</div>
         </section>
 
 
