@@ -552,16 +552,3 @@
 
         <!--<< Footer Section Start >>-->
         <?php include './partials/footer.php'?>
-
-        <!--<< All JS Plugins >>-->
-        <?php include './partials/script.php'?>
-    </body>
-</html>
-<?php
-session_start();
-if (!isset($_SESSION['skip_preloader'])) {
-    include './partials/preloader.php';
-} else {
-    unset($_SESSION['skip_preloader']); // Clear the session variable
-}
-?>
