@@ -140,34 +140,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 </body>
 </html>
-<?php
-$successMsg = "";
-$mysqli = new mysqli("DB_HOST", "DB_USER", "DB_PASS", "DB_NAME");
-
-// Check connection
-if ($mysqli->connect_error) {
-    die("Connection failed: " . $mysqli->connect_error);
-}
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = htmlspecialchars($_POST["name"]);
-    $phone = htmlspecialchars($_POST["phone"]);
-    $age = htmlspecialchars($_POST["age"]);
-    $gender = htmlspecialchars($_POST["gender"]);
-    $participants = htmlspecialchars($_POST["participants"]);
-
-    // Insert into DB
-    $stmt = $mysqli->prepare("INSERT INTO WS_LANDINGPAGE (name, phone, age, gender, participants) VALUES (?, ?, ?, ?, ?)");
-    $stmt->bind_param("ssiss", $name, $phone, $age, $gender, $participants);
-
-    if ($stmt->execute()) {
-        $successMsg = "Thank you, $name! Your application for the CT Shooting Championship has been received.";
-    } else {
-        $successMsg = "Error: Something went wrong while submitting.";
-    }
-
-    $stmt->close();
-}
-?>
 
 
