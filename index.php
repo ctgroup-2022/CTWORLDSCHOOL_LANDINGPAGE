@@ -5,8 +5,6 @@
     <?php include './partials/head.php'?>
     <body>
 
-        <!-- Preloader Start -->
-        <?php include './partials/preloader.php'?>
 
         <!-- Offcanvas Area Start -->
         <?php include './partials/sidebar.php'?>
