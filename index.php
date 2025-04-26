@@ -264,7 +264,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>4
+                        </div>
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                             <div class="work-process-items text-center style-2">
                                 <div class="line-shape-2">
@@ -310,6 +310,7 @@
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>
@@ -556,3 +557,11 @@
         <?php include './partials/script.php'?>
     </body>
 </html>
+<?php
+session_start();
+if (!isset($_SESSION['skip_preloader'])) {
+    include './partials/preloader.php';
+} else {
+    unset($_SESSION['skip_preloader']); // Clear the session variable
+}
+?>
