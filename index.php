@@ -426,7 +426,7 @@
                             <div class="team-items">
                                 <div class="team-image">
                                     <div class="shape-img">
-                                        <img src="assets/img/shooting/DSC_0006.jpg" alt="img">
+                                        <img src="assets/img/team/team-shape.png" alt="img">
                                     </div>
                                     <img src="assets/images/s2.png" alt="team-img">
                                     
