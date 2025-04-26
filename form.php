@@ -1,18 +1,4 @@
-<?php
-$successMsg = "";
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = htmlspecialchars($_POST["name"]);
-    $phone = htmlspecialchars($_POST["phone"]);
-    $age = htmlspecialchars($_POST["age"]);
-    $gender = htmlspecialchars($_POST["gender"]);
-    $participants = htmlspecialchars($_POST["participants"]);
 
-    // You can save this data to a database or send an email here
-    // For now, we just show a success message
-
-    $successMsg = "Thank you, $name! Your application for the CT Shooting Championship has been received.";
-}
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -69,11 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <h2 class="text-center fw-bolder" style="color: #198754;">Apply Now</h2>
             <p class="text-center fw-bolder" style="color:rgb(235, 216, 49);">CT Shooting Championship</p>
 
-            <?php if ($successMsg): ?>
-                <div class="alert alert-success text-center fw-bold">
-                    <?= $successMsg ?>
-                </div>
-            <?php endif; ?>
+            
 
             <form action="" method="POST">
                 <div class="mb-3">
