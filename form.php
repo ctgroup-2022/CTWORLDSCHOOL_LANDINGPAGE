@@ -92,7 +92,7 @@
 <div class="form-check form-check-inline">
   <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
   <label class="form-check-label" for="radioDefault2">
-Female
+FEMALE
   </label>
     </div><br>   
     

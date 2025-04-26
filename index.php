@@ -53,7 +53,7 @@
                        <?php include('form.php'); ?>
                    </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mb-5">
                         <div class="hero-content">
                             <h5 class="wow fadeInUp" style="color: #198754; font-weight: bold; font-size:50px;">CT SHOOTING CHAMPIONSHIP</h5>
                             <h1 class="wow fadeInUp" data-wow-delay=".3s" style="font-weight: bold; font-size:40px;">
