@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Enquire Now</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
   <style>
     body {
       background: linear-gradient(to right, #f8f9fa, #e9ecef);
@@ -115,35 +108,27 @@
         </button>
       </form>
 
-      <?php
-      if (isset($_POST['submit'])) {
-        $conn = mysqli_connect("localhost", "root", "", "ws_landingpage");
-
-        if (!$conn) {
-          die("<div class='alert alert-danger mt-3'>Database connection failed: " . mysqli_connect_error() . "</div>");
-        }
-
-        $name = $_POST['name'];
-        $phone = $_POST['phone'];
-        $age = $_POST['age'];
-        $gender = $_POST['gender'];
-        $participants = $_POST['participants'];
-            include 'config/controller.php';
-        $query = "INSERT INTO ws_landingpage (name, phone_number, age, gender, participants, status, created_at) 
-                  VALUES ('$name', '$phone', '$age', '$gender', '$participants', 'Pending', NOW())";
-
-        $result = mysqli_query($conn, $query);
-
-        if ($result) {
-          echo "<script>alert('Data added successfully!');</script>";
-        } else {
-          echo "<div class='alert alert-danger mt-3'>Error: " . mysqli_error($conn) . "</div>";
-        }
-
-        mysqli_close($conn);
-      }
-      ?>
     </div>
   </div>
 </body>
-</html>
+
+<script>
+  $(document).ready(function(){
+    $('#enquiryForm').on('submit', function(e){
+      e.preventDefault(); // stop normal form submit
+      $.ajax({
+        type: "POST",
+        url: "insert_form.php",
+        data: $(this).serialize(),
+        success: function(response){
+          if(response.trim() == "success"){
+            alert("Data added successfully!");
+            $('#enquiryForm')[0].reset(); // Reset the form
+          } else {
+            alert("Error: " + response);
+          }
+        }
+      });
+    });
+  });
+</script>
