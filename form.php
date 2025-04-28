@@ -46,7 +46,7 @@
       <h2 class="text-center fw-bolder" style="color: #198754;">Apply Now</h2>
       <p class="text-center fw-bolder" style="color:rgb(235, 216, 49);">CT Shooting Championship</p>
 
-      <form action="" method="POST">
+      <form action="insert_form.php" method="POST">
         <div class="mb-3">
           <label class="form-label" style="color:#198754;">Full Name</label>
           <div class="input-group">
