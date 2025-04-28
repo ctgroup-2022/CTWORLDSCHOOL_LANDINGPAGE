@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['name'])) {
-
-    $conn = mysqli_connect("localhost", "root", "FwlDeBo3smizxNx", "WorldSchool_Landing_Page-2025");
+$db_pass = "FwlDeBo3smizxNx";
+    $conn = mysqli_connect("localhost", "root", "FwlDeBo3smizxNx ", "WorldSchool_Landing_Page-2025");
 
     if (!$conn) {
         echo "Database connection failed: " . mysqli_connect_error();
