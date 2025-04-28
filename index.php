@@ -95,10 +95,10 @@
                         <div class="col-lg-6">
                             <div class="about-image-items">
                                 <div class="about-image wow fadeInUp" data-wow-delay=".3s">
-                                    <img src="assets/images/about.jpeg" alt="about-img">
+                                    <img src="assets/images/shooting/about1.png" alt="about-img">
                                 </div>
                                 <div class="about-image-2">
-                                    <img src="assets/images/5.webp" alt="about-img">
+                                    <img src="assets/images/shooting/about2.png" alt="about-img">
                                 </div>
                                 <div class="border-shape-1">
                                     <img src="assets/img/about/border-shape-1.png" alt="img">
@@ -108,11 +108,13 @@
                         <div class="col-lg-6">
                             <div class="about-content">
                                 <div class="section-title">
-                                    <span class="wow fadeInUp" style="color: #198754; font-weight: bold;">WHY CT World School?</span>
-                                     <h2 class="wow fadeInUp" data-wow-delay=".3s" style="color: #ffc107;">Top Choice for Children</h2>
+                                  
+                                     <h2 class="wow fadeInUp" data-wow-delay=".3s" style="color: #ffc107; font-weight:bolder;">Top Choice for Children</h2>
                                 </div>
-                                <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                CT World School offers a unique educational experience that brings a new dimension to learning through a bouquet of cross-cultural and global best practices. The central focus of this developmental journey is the cultivation of attitudes that enable each child to naturally evolve into a well-balanced individual, capable of effectively facing challenges and contributing responsibly to global progress. We aim to become a community of lifelong learners, striving for excellence and inspired by achievement and success.
+                                <p class="mt-3 mt-md-0 wow  "style=color:white;>
+                                CT World School proudly organized a thrilling Shooting Championship, showcasing the incredible talent, precision, and sportsmanship of our young sharpshooters. The event witnessed enthusiastic participation from students across various grades, each demonstrating outstanding focus, discipline, and skill.
+
+The championship was held at the school’s state-of-the-art shooting range, with participants competing in different categories based on age and skill level. Students used air rifles and pistols under strict safety measures and expert supervision, ensuring a fair and professional environment.
 
 
 
@@ -121,30 +123,20 @@
                                     <ul class="wow fadeInUp" data-wow-delay=".3s">
                                         <li>
                                             <i class="fa-regular fa-circle-check" style="color: #198754;"></i>
-                                            Sports Training
+                                            Shooting Training
                                         </li>
-                                        <li>
-                                            <i class="fa-regular fa-circle-check" style="color:  #198754;"></i>
-                                            Sports Training
-                                        </li>
+                                       
                                     </ul>
                                     <ul class="wow fadeInUp" data-wow-delay=".5s">
                                         <li>
                                             <i class="fa-regular fa-circle-check" style="color:  #198754;"></i>
                                             Sports Training
                                         </li>
-                                        <li>
-                                            <i class="fa-regular fa-circle-check" style="color: #198754;"></i>
-                                            Sports Training
-                                        </li>
+                                       
                                     </ul>
                                 </div>
                                 <div class="about-author">
-                                    <div class="about-button wow fadeInUp" data-wow-delay=".3s">
-                                        <a href="about.php" class="theme-btn" style="background-color: #ffc107;">
-                                            Explore More <i class="fa-solid fa-arrow-right-long"></i>
-                                        </a>
-                                    </div>
+
                                     <div class="author-icon wow fadeInUp" data-wow-delay=".5s">
                                        <div class="icon" style="background-color: #ffc107;">
                                             <i class="fa-solid fa-phone"></i>
@@ -152,7 +144,7 @@
                                         <div class="content">
                                             <span>Call Us Now</span>
                                             <h5>
-                                                <a href="tel:+2085550112">+208-555-0112</a>
+                                                <a href="tel:+2085550112">0181-5032700</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -329,7 +321,7 @@
                         <div class="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
                             <div class="activities-img-items">
                                 <div class="activities-image">
-                                    <img src="assets/images/ab1.png" alt="img">
+                                    <img src="assets/images/shooting/sports.png" alt="img">
                                 </div>
                                 <div class="radius-shape">
                                     <img src="assets/images/PNG.png" alt="img">
@@ -339,54 +331,55 @@
                         <div class="col-lg-6">
                             <div class="activities-content">
                                 <div class="section-title">
-                                    <span class="wow fadeInUp">Our Best Activities</span>
-                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Let Us Know About Our <br> Reading And Cultural</h2>
+                                    <span class="wow fadeInUp fs-2 fw-bolder" style="color:#198754;">Sports  Academy</span>
+                                    <h2 class="wow fadeInUp" data-wow-delay=".3s">Evening Sports Academy</h2>
                                 </div>
                                 <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse gravida vitae nisi in tincidunt.
-                                </p>
+                                The beyond school hours sports academy of CT World provides professional training for Swimming, Shooting, Skating, Football, and Cricket. The facility is available to our students as well as the outside sports aspirants during the academy hours. The state-of-the-art sports facility and an array of expert coaches ensure planned and meticulous training to both beginners and practicing sports enthusiasts.                              </p>
                                 <div class="row g-4 mt-4">
                                     <div class="col-xl-6 col-lg-8 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                                         <div class="icon-items">
                                             <div class="icon box-color-1">
-                                               <i class=" icon-icon-1"></i>
+                                        
                                             </div>
                                             <div class="content">
-                                                <h5>Early Learning</h5>
-                                                <p>Elit Aenean scelerisque <br> vitae consequat the.</p>
+                                                <h5>SHOOTING:</h5>
+                                                <p>PRECISION  MEETS POWER
+                                                .</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-xl-6 col-lg-8 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                                         <div class="icon-items">
                                             <div class="icon box-color-3">
-                                                <i class="icon-icon-16"></i>
+                                        
                                             </div>
                                             <div class="content">
-                                                <h5>Early Learning</h5>
-                                                <p>Elit Aenean scelerisque <br> vitae consequat the.</p>
+                                                <h5>SWIMMING:</h5>
+                                                <p>MASTER THE WATER, MASTER YOURSELF</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-xl-6 col-lg-8 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                                         <div class="icon-items">
                                             <div class="icon box-color-2">
-                                                <i class="icon-icon-7"></i>
+                                     
                                             </div>
                                             <div class="content">
-                                                <h5>Early Learning</h5>
-                                                <p>Elit Aenean scelerisque <br> vitae consequat the.</p>
+                                                <h5>FOOTBALL:</h5>
+                                                <p>SWEAT, GRIT AND GOALS.</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-xl-6 col-lg-8 col-md-6 wow fadeInUp" data-wow-delay=".8s">
                                         <div class="icon-items">
                                             <div class="icon box-color-4">
-                                                <i class="icon-icon-8"></i>
+                                      
                                             </div>
                                             <div class="content">
-                                                <h5>Early Learning</h5>
-                                                <p>Elit Aenean scelerisque <br> vitae consequat the.</p>
+                                                <h5>CRICKET:</h5>
+                                                <p>FIELDING WITH FOCUS.
+                                                SWINGING WITH CONFIDENCE</p>
                                             </div>
                                         </div>
                                     </div>
@@ -413,7 +406,7 @@
                 <div class="section-title-area">
                     <div class="section-title ">
                         <span class="wow fadeInUp"></span>
-                        <h2 class="wow fadeInUp" data-wow-delay=".3s" style="color:#198754;">Academic stars</h2>
+                        <h2 class="wow fadeInUp fs-2 " data-wow-delay=".3s" style="color:#198754;">Shooting Chapionship</h2>
                     </div>
                     <div class="array-button wow fadeInUp" data-wow-delay=".5s">
                         <button class="array-prev"><i class="fal fa-arrow-left"></i></button>
