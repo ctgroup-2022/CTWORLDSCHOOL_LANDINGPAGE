@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST['submit'])) {
           VALUES ('$name', '$phone', '$age', '$gender', '$participants', 'Pending', NOW())";
 
   if ($conn->query($sql) === TRUE) {
-    echo "<script>alert('Data added successfully!'); window.location.href='../world_school/index.php';</script>";
+    echo "<script>alert('Data added successfully!'); window.location.href='../world_school/world_school/index.php';</script>";
   } else {
     echo "<script>alert('Error: " . $conn->error . "'); window.history.back();</script>";
   }
@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST['submit'])) {
   $conn->close();
 } else {
   // Redirect if accessed directly
-  header("Location: ../world_school/index.php");
+  header("Location: ../world_school/world_school/index.php");
   exit;
 }
 ?>
