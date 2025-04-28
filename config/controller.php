@@ -1,9 +1,11 @@
 <?php
 // Database configuration
 $host = "localhost";
-$db_user = "root";
-$db_pass = "";
-$db_name = "ws_landingpage";
+$db_user = "ws_landingpage";
+$db_pass = "FwlDeBo3smizxNx";
+$db_name = "WorldSchool_Landing_Page-2025";
+
+
 
 // Create connection
 $conn = new mysqli($host, $db_user, $db_pass, $db_name);
