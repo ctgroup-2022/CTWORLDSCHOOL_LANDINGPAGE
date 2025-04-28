@@ -24,8 +24,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST['submit'])) {
   $gender = $conn->real_escape_string($_POST['gender']);
   $participants = $conn->real_escape_string($_POST['participants']);
 
+  
   // SQL insert query
-  $sql = "INSERT INTO ws_landingpage (name, phone_number, age, gender, participants, status, created_at)
+  $sql = "INSERT INTO registrations (name, phone_number, age, gender, participants, status, created_at)
           VALUES ('$name', '$phone', '$age', '$gender', '$participants', 'Pending', NOW())";
 
   if ($conn->query($sql) === TRUE) {

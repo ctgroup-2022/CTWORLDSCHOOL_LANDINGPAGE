@@ -428,7 +428,7 @@
                                     <div class="shape-img">
                                         <img src="assets/img/team/team-shape.png" alt="img">
                                     </div>
-                                    <img src="assets/images/s2.png" alt="team-img">
+                                    <img src="assets/images/shooting/s1.png" alt="team-img">
                                     
                                 </div>
                                 <div class="team-content">
@@ -442,21 +442,7 @@
                                     <div class="shape-img">
                                         <img src="assets/img/team/team-shape.png" alt="img">
                                     </div>
-                                    <img src="assets/images/s3.png" alt="team-img">
-                                    
-                                </div>
-                                <div class="team-content">
-                                   
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="team-items">
-                                <div class="team-image">
-                                    <div class="shape-img">
-                                        <img src="assets/img/team/team-shape.png" alt="img">
-                                    </div>
-                                    <img src="assets/images/s4.png" alt="team-img">
+                                    <img src="assets/images/shooting/s2.png" alt="team-img">
                                     
                                 </div>
                                 <div class="team-content">
@@ -470,7 +456,21 @@
                                     <div class="shape-img">
                                         <img src="assets/img/team/team-shape.png" alt="img">
                                     </div>
-                                    <img src="assets/images/s5.png" alt="team-img">
+                                    <img src="assets/images/shooting/s3.png" alt="team-img">
+                                    
+                                </div>
+                                <div class="team-content">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team-items">
+                                <div class="team-image">
+                                    <div class="shape-img">
+                                        <img src="assets/img/team/team-shape.png" alt="img">
+                                    </div>
+                                    <img src="assets/images/shooting/s4.png" alt="team-img">
                                    
                                 </div>
                                 <div class="team-content">
