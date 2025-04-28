@@ -406,7 +406,7 @@ The championship was held at the school’s state-of-the-art shooting range, wit
                 <div class="section-title-area">
                     <div class="section-title ">
                         <span class="wow fadeInUp"></span>
-                        <h2 class="wow fadeInUp fs-2 " data-wow-delay=".3s" style="color:#198754;">Shooting Chapionship</h2>
+                        <h2 class="wow fadeInUp fs-2 " data-wow-delay=".3s" style="color:#198754;">Shooting Championship</h2>
                     </div>
                     <div class="array-button wow fadeInUp" data-wow-delay=".5s">
                         <button class="array-prev"><i class="fal fa-arrow-left"></i></button>
