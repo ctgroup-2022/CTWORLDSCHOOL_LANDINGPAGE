@@ -1,23 +1,35 @@
 <?php
-// Check if session already started before calling session_start()
+// Improved session and error handling
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-// Database connection - with better error handling
+// Enable error reporting for development
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+// Define constants for frequently used paths
+define('UPLOAD_DIR', __DIR__ . '/../uploads/');
+define('SCREENSHOT_DIR', UPLOAD_DIR . 'payment_screenshots/');
+
+// Create these directories if they don't exist
+if (!file_exists(UPLOAD_DIR)) {
+    mkdir(UPLOAD_DIR, 0755, true);
+}
+if (!file_exists(SCREENSHOT_DIR)) {
+    mkdir(SCREENSHOT_DIR, 0755, true);
+}
+
+// $host = "localhost"; // Or try "127.0.0.1" if localhost doesn't work
+$username = "root";
+$password = ""; // Empty password
 $host = "localhost"; // Or try "127.0.0.1" if localhost doesn't work
-$username = "ws_landingpage";
-$password = "FwlDeBo3smizxNx"; // If you set a MySQL password, put it here
-$database = "WorldSchool_Landing_Page-2025";
-
-
-
-
+$database = "ct_shooting_championship";
 
 // Create connection with error handling
 try {
     $conn = new mysqli($host, $username, $password, $database);
-    
+
     // Check connection
     if ($conn->connect_error) {
         throw new Exception("Connection failed: " . $conn->connect_error);
@@ -48,12 +60,12 @@ if (isset($_POST['submit'])) {
     // Insert into database
     $sql = "INSERT INTO registrations (name, phone, age, gender, participants) 
             VALUES ('$name', '$phone', '$age', $gender, $participants)";
-    
+
     if ($conn->query($sql) === TRUE) {
         // Store registration info in session
         $_SESSION['registration_id'] = $conn->insert_id;
         $_SESSION['participant_name'] = $name;
-        
+
         // Redirect to payment page
         echo "<script>window.location.href='../qr.php';</script>";
     } else {
@@ -61,5 +73,3 @@ if (isset($_POST['submit'])) {
     }
     exit;
 }
-?>
-<!--  -->

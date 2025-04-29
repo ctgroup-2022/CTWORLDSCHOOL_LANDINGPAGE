@@ -1,4 +1,3 @@
-
 <style>
     body {
       background: linear-gradient(to right, #f8f9fa, #e9ecef);
@@ -130,5 +129,25 @@
         }
       });
     });
+  });
+
+  // Add this JavaScript to form.php
+  document.querySelector('form').addEventListener('submit', function(e) {
+    const phone = document.querySelector('input[name="phone"]').value;
+    const age = document.querySelector('input[name="age"]').value;
+    
+    // Validate phone number
+    if (!/^\d{10}$/.test(phone)) {
+        alert('Please enter a valid 10-digit phone number.');
+        e.preventDefault();
+        return;
+    }
+    
+    // Validate age
+    if (isNaN(age) || age < 6 || age > 99) {
+        alert('Please enter a valid age between 6 and 99.');
+        e.preventDefault();
+        return;
+    }
   });
 </script>
