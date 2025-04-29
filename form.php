@@ -1,5 +1,5 @@
 
-  <style>
+<style>
     body {
       background: linear-gradient(to right, #f8f9fa, #e9ecef);
       margin-bottom: 200px;
