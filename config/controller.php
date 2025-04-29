@@ -21,10 +21,11 @@ if (!file_exists(SCREENSHOT_DIR)) {
 }
 
 // $host = "localhost"; // Or try "127.0.0.1" if localhost doesn't work
-$username = "root";
-$password = ""; // Empty password
+$username = "ws_landingpage";
+$password = "FwlDeBo3smizxNx"; // Empty password
 $host = "localhost"; // Or try "127.0.0.1" if localhost doesn't work
-$database = "ct_shooting_championship";
+$database = "WorldSchool_Landing_Page-2025";
+
 
 // Create connection with error handling
 try {
