@@ -359,36 +359,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <h4 class="section-title">Select Payment Plan</h4>
                 
                 <div class="row">
-                </div>
-                
-                <div class="row">
                     <div class="col-md-6">
                         <div class="pricing-card" id="standard-plan" onclick="selectPlan('standard')">
-                            <div class="plan-badge">STANDARD</div>
-                            <h5>Standard Entry</h5>
+                            <div class="plan-badge">FRESHER</div>
+                            <h5>Fresher</h5>
                             <div class="price-tag"><span class="price-currency">₹</span>50</div>
-                            <p class="text-muted">Basic participation</p>
+                            <p class="text-muted">For beginners</p>
                             <ul class="benefit-list">
                                 <li><i class="fas fa-check-circle"></i> Championship Entry</li>
-                                <li><i class="fas fa-check-circle"></i> Standard Category</li>
-                                <li><i class="fas fa-check-circle"></i> Participation Certificate</li>
-                                <li><i class="fas fa-times-circle text-muted"></i> Premium Goodies</li>
-                                <li><i class="fas fa-times-circle text-muted"></i> VIP Access</li>
+                                <li><i class="fas fa-check-circle"></i> Provision of Guns</li>
+                                <li><i class="fas fa-check-circle"></i> 5 Shots</li>
+                                <li><i class="fas fa-check-circle"></i> Gift for Bull eye</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="pricing-card" id="premium-plan" onclick="selectPlan('premium')">
-                            <div class="plan-badge" style="background-color: #198754; color: white;">PREMIUM</div>
-                            <h5>Premium Entry</h5>
+                            <div class="plan-badge" style="background-color: #198754; color: white;">NR SHOOTERS</div>
+                            <h5>NR Shooters</h5>
                             <div class="price-tag"><span class="price-currency">₹</span>500</div>
-                            <p class="text-muted">Enhanced experience</p>
+                            <p class="text-muted">For experienced shooters</p>
                             <ul class="benefit-list">
-                                <li><i class="fas fa-check-circle"></i> Championship Entry</li>
-                                <li><i class="fas fa-check-circle"></i> Premium Category</li>
-                                <li><i class="fas fa-check-circle"></i> Achievement Certificate</li>
-                                <li><i class="fas fa-check-circle"></i> Exclusive Goodies Pack</li>
-                                <li><i class="fas fa-check-circle"></i> VIP Access & Benefits</li>
+                                <li><i class="fas fa-check-circle"></i> Championship entry</li>
+                                <li><i class="fas fa-check-circle"></i> 40 shots match</li>
+                                <li><i class="fas fa-check-circle"></i> Medals and certificates for all</li>
+                                <li><i class="fas fa-check-circle"></i> Attractive prizes for the winners</li>
                             </ul>
                         </div>
                     </div>
