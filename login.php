@@ -82,9 +82,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             debug_log('Attempting password verification');
             debug_log('Stored hash: ' . substr($admin['password'], 0, 10) . '...');
             
-            // TEMPORARY: Accept any password for this admin account
-            // WARNING: Remove this in production!
-            $password_ok = true; // password_verify($password, $admin['password']);
+            // Use proper password verification
+            $password_ok = password_verify($password, $admin['password']);
             
             if ($password_ok) {
                 debug_log('Password accepted');
